@@ -7,7 +7,7 @@ import Sum
 # app = Flask(__name__)
 app=Flask(__name__,template_folder='templates')
 # model = pickle.load(open("cross_index.pkl","rb"))
-
+#model
 @app.route('/')
 def index():
     return render_template('home.html')
