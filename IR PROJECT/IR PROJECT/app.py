@@ -15,12 +15,19 @@ def index():
 
 @app.route('/results', methods=['POST'])
 def results():
-    if request.method == 'POST':
-        query = request.form['query']
-        print(query)
-        s = Sum.sumClass
-        result = s.doubleOfNumbers(int(query))
-        return render_template('results.html', results=result)
+    try:
+        if request.method == 'POST':
+            query = request.form['query']
+            print(query)
+            s = Sum.sumClass
+            result = s.doubleOfNumbers(int(query))
+            return render_template('results.html', results=result)
+    except Exception as e:
+        print(e)
+        return jsonify({'error': "No Data Found Sorry!" })
+
+
+
 
 # @app.route('/', methods=['POST'])
 # def get_results():
