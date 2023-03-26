@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from model import Query_Processing
+from model import Query_Processing,MainIndex,city_index,state_index,category_index
 import urllib.request
 import imghdr
 import base64
