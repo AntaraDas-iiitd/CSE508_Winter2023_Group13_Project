@@ -8,9 +8,7 @@
     {% for index, row in results.iterrows() %}
         <h1>{{ row['title'] }}</h1>
         <div>
-          {% for image_src in image_srcs %}
-            <img src="{{ image_src }}" alt="My Image" />
-          {% endfor %}
+
         </div>
 
     {% endfor %}

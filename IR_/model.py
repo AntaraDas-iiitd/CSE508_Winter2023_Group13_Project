@@ -237,8 +237,14 @@ class Query_Processing:
 
     def query_processor(self, query):
         self.get_indices()
+        print("query----",query)
         words_list = self.preprocess_query(query)
+        print("after prprocess->query----",words_list)
         self.make_bigrams(words_list)
+        print("after make_bigram -> query----",self.bigram)
+        #print("sfdg",len(self.bigram))
+        if(len(self.bigram)== 0):
+            return 0
         res_indices = set()
         df = self.cat_index.dataframe
         for bg in self.bigram:
