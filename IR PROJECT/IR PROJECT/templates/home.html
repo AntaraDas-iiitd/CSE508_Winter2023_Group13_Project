@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Page</title>
+  </head>
+  <body>
+    <h1>Search for a Book</h1>
+    <form action="/results" method="POST">
+      <label for="query">Enter a query:</label>
+      <input type="text" id="query" name="query" maxlength="15">
+      <button type="submit">Search</button>
+    </form>
+    
+<!--    {% if result %}-->
+<!--    <h2>{{ result.title }}</h2>-->
+<!--    <img src="{{ result.image_url }}" alt="{{ result.title }}">-->
+<!--    {% endif %}-->
+  </body>
+</html>
+
