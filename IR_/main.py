@@ -1,4 +1,8 @@
 from flask import Flask, render_template, request
+<<<<<<< HEAD
+=======
+from model import Query_Processing,MainIndex,city_index,state_index,category_index
+>>>>>>> 3fb3d13bef555a33eada0844e270b963ad268bed
 import urllib.request
 import imghdr
 import base64
