@@ -1,8 +1,5 @@
 from flask import Flask, render_template, request
-<<<<<<< HEAD
-=======
 from model import Query_Processing,MainIndex,city_index,state_index,category_index
->>>>>>> 3fb3d13bef555a33eada0844e270b963ad268bed
 import urllib.request
 import imghdr
 import base64
@@ -24,7 +21,7 @@ def results():
         query = request.form['query']
         s = Query_Processing()
         result = s.query_processor(query)
-        if(result == 0):
+        if(len(result) == 0 or result.empty):
             print("wehnaliugebhiuegbuisebwgeiugbfew")
             return render_template('home.html',error = "no data found")
         

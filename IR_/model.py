@@ -244,7 +244,7 @@ class Query_Processing:
         print("after make_bigram -> query----",self.bigram)
         #print("sfdg",len(self.bigram))
         if(len(self.bigram)== 0):
-            return 0
+            return self.bigram
         res_indices = set()
         df = self.cat_index.dataframe
         for bg in self.bigram:
