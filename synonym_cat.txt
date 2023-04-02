@@ -1,0 +1,10 @@
+Pilgrimage:'Hindu Temple','Buddhist temple','Pagoda','Church','Catholic church','Jain temple','Cathedral','Shrine','Gurudwara','Mosque','Religious,destination','Bahá'í house of worship','Anglican church','Monastery','Meditation center','Place of worship','Pilgrimage place','Catholic cathedral','Basilica','Cemetery','Tomb','Spiritist center','Religious organization','Protestant church','Religious institution','Christian church','Baptist church','Presbyterian church';
+Beach:'Beach','Public beach','Island','Beach pavillion';
+Hill Station:Mountain,'Hill station','Mountain peak','Mountain pass','Mountain cable car';
+Wildlife:forest,'Bird watching area','Aquarium','Nature preserve','Zoo','National park','Wildlife and safari park','Wildlife refuge','Woods','Wildlife park','Sanctuary';
+Adventure :'Park','Garden,'Amusement park ride','Water park','Scenic spot','Memorial park','Rafting','Lake','Amusement park','Children's amusement center','Theme park','Botanical garden','Observatory','City park','Planetarium','Campground',"Children's camp",'Reservoir','Picnic ground','Holiday park',
+'Amusement center','Ferry service','Ferry terminal','Technology park','Fountain','Cricket ground','Animal park','Playground','Fishing lake','Canal','Community garden','Public golf course','Park & ride','Mountain cabin';
+Historical Places :'Archaeological site','Fortress','Historical place','Historical landmark','Castle','Art gallery','Monument','Cultural center','Ashram','Heritage building','Heritage preservation','Sculpture','War memorial','Military cemetery','Handicraft','Cultural landmark';
+Museum :'Handicraft museum','Historical place museum','Museum','History museum','National museum','Rail museum','Army museum','Local history museum','Archaeological museum','Natural history museum','Technology museum','Maritime museum','Heritage museum',"Children's museum",'Art museum','Open air','museum','War museum','Science museum';
+Trekking :'Hiking area','Bridge','Ravine','Raft trip outfitter','Swimming lake','Waterfall','River','Farmstay','Fishing pond','Farm','Hot spring','Pond','River port','Camping farm';
+Desert:'Desert'
