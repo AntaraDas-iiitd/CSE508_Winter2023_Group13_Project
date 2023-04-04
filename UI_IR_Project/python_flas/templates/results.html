@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+    <style>
+
+
+
+    </style>
+</head>
+<body>
+    {% for index, row in results.iterrows() %}
+        <h1>{{ row['title'] }}</h1>
+        <div class="place_image">
+            {% for image_src in image_srcs %}
+            <img src="{{ image_src }}" alt="My Image" />
+          {% endfor %}
+        </div>
+
+    {% endfor %}
+
+
+</body>
+</html>
