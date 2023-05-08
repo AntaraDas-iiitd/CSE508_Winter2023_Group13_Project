@@ -1,7 +1,9 @@
 # CSE508_Winter2023_Group13_Project
 
 Video demo :- https://www.youtube.com/watch?v=aErsDs-pkzA
+
 Project report :- report.pdf
+
 Project ppt :- indieHunt.pptx
 
 # Objective:
@@ -32,4 +34,9 @@ User interface:- The application interface is built with React and Flask, provid
 # Steps for execution:- 
 
 1. Dataset named Travel_dataset_final_V3.csv is being used here.
-2. 
+2. run main.py file of flask for backend purpose
+3. run App.js file of React.js for frontend purpose
+4. Enter your free text query in search bar of Search By Text section to get relevant info (text + image) about the query searched.
+5. Upload any image via upload button of Search By Image section to get relevant info (text + image) about the image uploaded.
+
+
