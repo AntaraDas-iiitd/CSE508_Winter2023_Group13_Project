@@ -4,7 +4,7 @@ Video demo :- https://www.youtube.com/watch?v=aErsDs-pkzA
 
 Project report :- report.pdf
 
-Project ppt :- indieHunt.pptx
+Project ppt :- Group13_Project_Presentation.pdf
 
 # Objective:
 
