@@ -38,7 +38,7 @@ The application interface is built with React and Flask, providing a search-by-t
 
 # Steps for execution:- 
 
-1. Dataset named Travel_dataset_final_V3.csv is being used here.
+1. Dataset named Travel_dataset_final_V3.csv is being used here. Link to dataset: https://drive.google.com/drive/u/0/folders/1ID2oqxO1_oq03viLXwRs94JWFkGlMHs9 
 2. run main.py file of flask for backend purpose
 3. run App.js file of React.js for frontend purpose
 4. Enter your free text query in search bar of Search By Text section to get relevant info (text + image) about the query searched.
