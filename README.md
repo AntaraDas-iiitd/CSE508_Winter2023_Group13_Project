@@ -6,6 +6,8 @@ Project report :- report.pdf
 
 Project ppt :- indieHunt.pptx
 
+Final updated version of all code files, dataset and report are in the final_review branch
+
 # Objective:
 
 The project is a web application designed to provide users with
